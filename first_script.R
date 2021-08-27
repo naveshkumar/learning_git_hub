@@ -6,3 +6,5 @@ b = 2
 c = a+ b
 
 str_1 <- "new string"
+
+print("hellow world 2")
