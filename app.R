@@ -8,8 +8,10 @@ install.packages(c(
 
 library(shiny)
 
+source("printHW.R")
+
 ui <- fluidPage(
-  "Hello, world!"
+  printeHW("Yes")
 )
 server <- function(input, output, session) {
 }
