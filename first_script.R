@@ -9,3 +9,4 @@ str_1 <- "new string"
 
 print("hellow world 2")
 print("hellow world 3")
+print("hellow world 3")
