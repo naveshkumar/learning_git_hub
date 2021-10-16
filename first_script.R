@@ -8,3 +8,4 @@ c = a+ b
 str_1 <- "new string"
 
 print("hellow world 2")
+print("hellow world 3")
