@@ -1,21 +1,22 @@
-install.packages("shiny")
-install.packages(c(
-  "gapminder", "ggforce", "gh", "globals", "openintro", "profvis", 
-  "RSQLite", "shiny", "shinycssloaders", "shinyFeedback", 
-  "shinythemes", "testthat", "thematic", "tidyverse", "vroom", 
-  "waiter", "xml2", "zeallot" 
-))
+#This is where the 3 parts of the App exist
+#final commit
 
 library(shiny)
 
-source("printHW.R")
+#UI elements and Server instructions are sourced from their respective files
 
+
+#UI Elements
+source("UI.R")
 ui <- fluidPage(
-  printeHW("Yes")
+  fluidPage_V1
 )
-server <- function(input, output, session) {
-}
-shinyApp(ui, server)
+
+#Server Instructions sourced from SERVER.R
+source("SERVER.R")
+
+#Run the App
+shinyApp(ui, server_v1)
 
 #https://www.rstudio.com/resources/cheatsheets/
 

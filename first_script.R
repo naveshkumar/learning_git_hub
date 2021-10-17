@@ -1,12 +1,9 @@
-print("hello git world")
+# changing this to keep all the packages as suggested by Hadley Wickham
 
-a = 1
-b = 2
-
-c = a+ b
-
-str_1 <- "new string"
-
-print("hellow world 2")
-print("hellow world 3")
-print("hellow world 3")
+install.packages("shiny")
+install.packages(c(
+  "gapminder", "ggforce", "gh", "globals", "openintro", "profvis", 
+  "RSQLite", "shiny", "shinycssloaders", "shinyFeedback", 
+  "shinythemes", "testthat", "thematic", "tidyverse", "vroom", 
+  "waiter", "xml2", "zeallot" 
+))
